@@ -1,0 +1,329 @@
+{
+  "properties": {
+    "source": {
+      "type": "AzureSqlDatabase",
+      "typeProperties": {
+        "connection": "d3cd6421-e9cf-44bf-abc1-cf693b72fad5",
+        "landingZone": {
+          "type": "MountedRelationalDatabase",
+          "typeProperties": {}
+        }
+      }
+    },
+    "target": {
+      "type": "MountedRelationalDatabase",
+      "typeProperties": {
+        "defaultSchema": "dbo",
+        "format": "Delta",
+        "retentionInDays": 1,
+        "enableDeltaChangeDataFeed": false
+      }
+    },
+    "mountedTables": [
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "AspNetRoles"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "AspNetUserResourceFilters"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "AspNetUserRoles"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "AspNetUsers"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "BillOfMaterials"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "Checklists"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "CycleDayAdjustmentFactors"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "DemandForecasts"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "DemandForecastSetNames"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "DemandHistories"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "DemandHistoryEdits"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "DemandOrders"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "EnumLanguageMappings"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "KeyValueItems"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "Locations"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "PartCycleDayAdjustmentFactors"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "PartDetails"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "PartHistories"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "PartKeys"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "PartPackagings"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "Parts"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "PartUnitOfMeasures"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "Resources"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "RoutingItems"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "RoutingItemsForOrder"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "RoutingSets"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "Scenarios"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "SchedulingFrameworks"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "SchedulingGroups"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "SchedulingOrderPackets"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "SchedulingOrders"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "SchedulingRopeItemDetails"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "SchedulingRopeItemMaster"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "SchedulingSets"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "SimulationPartForecasts"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "Simulations"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "SimulationSupplyOrders"
+          }
+        }
+      },
+      {
+        "source": {
+          "typeProperties": {
+            "schemaName": "dbo",
+            "tableName": "StockDeploymentDestinations"
+          }
+        }
+      }
+    ]
+  }
+}
