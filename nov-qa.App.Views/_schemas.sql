@@ -1,0 +1,1 @@
+﻿IF SCHEMA_ID('report') IS NULL EXEC('CREATE SCHEMA [report]');
